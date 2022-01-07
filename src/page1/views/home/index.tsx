@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.scss'
 
-const Home = () => <div>home</div>;
+const Home = () => <div>page1 home</div>;
 
 export default Home
