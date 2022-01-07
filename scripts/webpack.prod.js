@@ -8,7 +8,8 @@ const prodConfig = {
     devtool: 'source-map',
     output:{
         filename: '[name]/static/js/[name].[contenthash:8].js',
-        path: path.resolve(__dirname, '../dist')
+        path: path.resolve(__dirname, '../dist'),
+        publicPath: '/entries'
     },
     plugins:[
         new CleanWebpackPlugin()
